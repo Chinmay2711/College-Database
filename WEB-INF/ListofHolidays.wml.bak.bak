@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN"
+ "http://www.wapforum.org/DTD/wml13.dtd"> 
+<wml>
+
+<card id="card1" title="Mobile Information System">
+<p align="center">
+<br/><br/>
+<u>WELCOME</u><br/>
+<a href="collage.wml">Collage</a><br/><br/>
+<a href="faculty.wml">Faculty</a><br/><br/>
+<a href="result.wml">Result</a><br/><br/>
+<a href="subjects.wml">Subject</a><br/><br/>
+<a href="libray books.wml">Libray books</a><br/><br/>
+<a href="notification.wml">Notification</a><br/><br/>
+<a href="help.wml">Help</a><br/><br/>
+</p>
+</card>
+</wml>

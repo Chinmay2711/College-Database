@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN"
+ "http://www.wapforum.org/DTD/wml13.dtd"> 
+<wml>
+
+<card id="card1" title="Mobile Information System">
+<p align="center">
+<br/><br/>
+List of branches<select  name="branch" value="mech">
+<option value="mech">MECH</option>
+<option value="eee">EEE</option>
+<option value="ece">ECE</option>
+</select>
+Select Year<select  name="year" value="I">
+<option value="I">I</option>
+<option value="II">II</option>
+<option value="III">III</option>
+<option value="VI">IV</option>
+</select>
+select sem<select name="sem" value="fist sem">
+<option value="fist sem">Fist Sem</option>
+<option value="second sem">Second Sem</option>
+</select><br/><br/>
+<a href="faculty1">Search</a>
+</p>
+</card>
+</wml>
