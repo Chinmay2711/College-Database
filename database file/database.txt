@@ -1,0 +1,83 @@
+//UserRegistration table
+
+create table userregistration(uname varchar(20),pwd varchar(20),repwd varchar(20),address varchar(30),dob date,contact number(15));
+
+
+//faculty table 
+
+create table faculty(facultyname varchar(30),branch varchar(30),year number(3),semester number(
+2),experience number(2),subject varchar(30));
+
+
+insert into faculty values('swetha','cse',1,1,3,'c and ds');
+insert into faculty values('vidya rani','cse',2,1,3,'computer organisation');
+insert into faculty values('murali','cse',2,2,3,'dbms');
+insert into faculty values('ramesh chandra','cse',3,1,3,'distributed systems');
+insert into faculty values('ravi kumar','cse',3,2,3,'computer graphics');
+insert into faculty values('dinakar','cse',4,1,3,'computer networks');
+insert into faculty values('ekambaram naidu','cse',4,2,3,'software engineering');
+insert into faculty values('murali','ece',1,1,3,'c and ds');
+insert into faculty values('bhargavi','ece',1,1,3,'micro processors');
+insert into faculty values('bhargav ram','eee',1,1,3,'network theory');
+insert into faculty values('sundari','mech',1,1,3,'maths');
+
+//results table
+
+create table results(hallticketno number primary key,subject varchar(25),internalmarks number(2
+),externalmarks number(3));
+
+
+
+insert into results values(101,'maths',20,70);
+insert into results values(102,'stld',18,70);
+insert into results values(103,'ldic',17,70);
+insert into results values(104,'co',16,70);
+insert into results values(105,'java',19,70);
+insert into results values(106,'daa',18,70);
+insert into results values(107,'mp',17,70);
+insert into results values(108,'edc',16,70);
+insert into results values(109,'se',20,70);
+
+
+
+//subjects table
+
+create table subject(subname varchar(30),branch varchar(30),year number(3),semester number(2),p
+racticals varchar(20));
+
+insert into subject values('maths','cse',1,1,'c lab');
+insert into subject values('java','cse',2,1,'oops lab');
+insert into subject values('dbms','cse',2,2,'sql lab');
+insert into subject values('uml','cse',3,1,'uml lab');
+insert into subject values('cn','cse',3,2,'cn lab');
+insert into subject values('multi media','cse',4,1,'mmwd lab');
+insert into subject values('cn','ece',3,2,'cn lab');
+insert into subject values('cn','eee',3,2,'cn lab');
+
+
+
+//library table
+
+create table library(hallticketno number(12),bookid number(5),bookname varchar(25),bookauthor 
+varchar(30),duedate date);
+
+insert into library values(101,400,'complete reference java','herbert schild',15-mar-2007);
+insert into library values(102,401,'c and data structures','balaguruswamy',10-mar-2007);
+insert into library values(103,402,'computer organisation','william stallings',5-feb-2007);
+insert into library values(104,403,'operating systems','william stallings',1-mar-2007);
+
+
+
+
+//exam table;
+
+create table examination(subject varchar(30),branch varchar(25),year number(2),semester number(
+2),examdate date);
+
+insert into examination values('se','cse',4,1,15-mar-2007);
+
+
+
+
+
+
